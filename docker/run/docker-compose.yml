@@ -1,8 +1,9 @@
 services:
   agent-zero:
-    build:
-      context: ../../
-      dockerfile: docker/Dockerfile
+   build:
+  context: ../..
+  dockerfile: ./docker/Dockerfile
+
     volumes:
       - ./agent-zero:/a0
     ports:
